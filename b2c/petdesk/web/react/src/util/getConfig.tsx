@@ -37,7 +37,7 @@ const authConfig = {
     signInRedirectURL: window.config.signInRedirectURL,
     signOutRedirectURL: window.config.signOutRedirectURL,
     resourceServerURL: window.config.resourceServerURL,
-    scope: ["openid", "profile", "email"],
+    scope: window.config.scope,
   };
 
 export function getConfig() {
